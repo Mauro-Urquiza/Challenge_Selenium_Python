@@ -1,0 +1,22 @@
+<testsuite name="pruebaBehave.Primer test" tests="1" errors="0" failures="0" skipped="0" time="18.535282" timestamp="2021-09-08T14:09:30.458168" hostname="mauro-Latitude-5410"><testcase classname="pruebaBehave.Primer test" name="Agregar PlayStation 5 a la lista de deseos" status="passed" time="18.535282"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @exampleTest1
+  Scenario: Agregar PlayStation 5 a la lista de deseos
+    Given Que el usuario se encuentra en el la pagina principal ... passed in 8.026s
+    And El usuario ingreso play station 5 en el buscador ... passed in 5.024s
+    When El usuario accede al producto encontrado ... passed in 4.030s
+    Then El usuario podra agredar el producto a la lista de deseos ... passed in 1.456s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+---------Fin Test 1 --------
+------ Primer test ------
+Assert: Sony Consola PS5 & Ratchet & Clank - Una Dimensión Aparte
+---------Fin Test 1 --------
+
+]]>
+</system-out></testcase></testsuite>
